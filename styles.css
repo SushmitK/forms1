@@ -32,7 +32,7 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/static/images/milad-fakurian-_zSZVxZWhkY-unsplash.jpg");
+    background-image: url("https://images.unsplash.com/photo-1634154369165-cadcd9af7100?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=741&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
