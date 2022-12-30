@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Collection: Form 1</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- fontAusome -->
+    <script src="https://kit.fontawesome.com/1fb8ba0264.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id="GettingStarted">
+        <div>
+            <div class="heading">
+                <p>Ready to spend some time on my form collections?</p>
+            </div>
+            <div class="description italic">
+                <p>Description (Optional)</p>
+            </div>
+            <div class="gettingStaetedBtn">
+                <a href="#FullName">Lets Get Started..</a>
+            </div>
+            <div class="gettingStartedTime">
+                <i class="fa-solid fa-clock"></i>
+                <p>Take Few Minutes</p>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="FullName">
+        <div>
+            <div class="heading2 row">
+                <p class="order">1</p>
+                <i class="fa-solid fa-arrow-right-long order-logo" ></i>
+            </div>
+            <div>
+                <div class="heading">
+                    <p>Hi there! So what's your name?</p>
+                </div>
+                <div class="description italic">
+                    <p>Description (Optional)</p>
+                </div>
+                <div class="margin-top">
+                    <form action="" method="post">
+                        <input type="name" name="name" placeholder="Type Your Answer Here..." required>
+                        <a href="#Email">Ok<i class="fa-solid fa-check inside-btn"></i></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="Email">
+        <div>
+            <div class="heading2 row">
+                <p class="order">2</p>
+                <i class="fa-solid fa-arrow-right-long order-logo" ></i>
+            </div>
+            <div>
+                <div class="heading">
+                    <p>Now i need you email?</p>
+                </div>
+                <div class="description italic">
+                    <p>Description (Optional)</p>
+                </div>
+                <div class="margin-top">
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="Type Your Answer Here..." required>
+                        <div>
+                            <a href="#FullName"><i class="fa-solid fa-caret-left inside-btn-two"></i>Back</a>
+                            <a href="#BirthDate">Ok<i class="fa-solid fa-check inside-btn"></i></a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="BirthDate">
+        <div>
+            <div class="heading2 row">
+                <p class="order">3</p>
+                <i class="fa-solid fa-arrow-right-long order-logo" ></i>
+            </div>
+            <div>
+                <div class="heading">
+                    <p>Whould you like to share you birth-date?</p>
+                </div>
+                <div class="description italic">
+                    <p>Description (Optional)</p>
+                </div>
+                <div class="margin-top">
+                    <form action="" method="post">
+                        <input type="date" name="email" placeholder="Type Your Answer Here...">
+                        <div>
+                            <a href="#Email"><i class="fa-solid fa-caret-left inside-btn-two"></i>Back</a>
+                            <a href="#Like">Ok<i class="fa-solid fa-check inside-btn"></i></a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="Like">
+        <div>
+            <div class="heading2 row">
+                <p class="order">4</p>
+                <i class="fa-solid fa-arrow-right-long order-logo" ></i>
+            </div>
+            <div>
+                <div class="heading">
+                    <p>Which form you like more?</p>
+                </div>
+                <div class="description italic">
+                    <p>Description (Optional)</p>
+                </div>
+                <div class="margin-top">
+                    <form action="" method="post">
+                        <select name="form">
+                            <option value="volvo">Form1</option>
+                            <option value="saab">Form2</option>
+                            <option value="fiat">Form3</option>
+                            <option value="audi">Form4</option>
+                          </select>
+                        <div>
+                            <a href="#BirthDate"><i class="fa-solid fa-caret-left inside-btn-two"></i>Back</a>
+                            <a href="#Check">Ok<i class="fa-solid fa-check inside-btn"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="Check">
+        <div>
+            <div class="heading2 row">
+                <p class="order">5</p>
+                <i class="fa-solid fa-arrow-right-long order-logo" ></i>
+            </div>
+            <div>
+                <div class="heading">
+                    <p>Which element in form you like most?</p>
+                </div>
+                <div class="description italic">
+                    <p>Description (Optional)</p>
+                </div>
+                <div class="margin-top">
+                    <form action="" method="post">
+                        <div class="checkBoxCss">
+                            <div class="border">
+                                <input type="checkbox" name="check">
+                                <p>good</p>
+                            </div>
+                            <div class="border">
+                                <input type="checkbox" name="check">
+                                <p>Ones</p>
+                            </div>
+                            <div class="border">
+                                <input type="checkbox" name="check">
+                                <p>good</p>
+                            </div>
+                            <div class="border">
+                                <input type="checkbox" name="check">
+                                <p>Ones</p>
+                            </div>
+                            <div class="border">
+                                <input type="checkbox" name="check">
+                                <p>good</p>
+                            </div>
+                            <div class="border">
+                                <input type="checkbox" name="check">
+                                <p>Ones</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#Like"><i class="fa-solid fa-caret-left inside-btn-two"></i>Back</a>
+                            <a href="#Submit">Ok<i class="fa-solid fa-check inside-btn"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="Submit">
+        <div>
+            <div class="heading2 row">
+                <p class="order">6</p>
+                <i class="fa-solid fa-arrow-right-long order-logo" ></i>
+            </div>
+            <div>
+                <div class="heading">
+                    <p>How was your overall experience?</p>
+                </div>
+                <div class="description italic">
+                    <p>Description (Optional)</p>
+                </div>
+                <div class="margin-top">
+                    <form action="" method="post">
+                        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                        <div>
+                            <a href="#End">Submit</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="namePage" id="End">
+        <div id="end">
+            <div class="heading">
+                <p>Thank You so much for your support</p>
+            </div>
+            <div class="description italic">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ratione sint neque numquam magnam a, deserunt eum obcaecati rerum dignissimos dolores unde iure. At incidunt molestias mollitia aut hic error doloremque voluptas provident sed odit ducimus natus vel, odio suscipit porro sapiente? Est nisi eligendi harum consectetur illum? Officia, excepturi.</p>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
